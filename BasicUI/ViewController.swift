@@ -23,7 +23,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: UITextFieldDelegate
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        // hide the keyboard
+        
+        // Hide the keyboard.
         textField.resignFirstResponder()
         return true
     }
