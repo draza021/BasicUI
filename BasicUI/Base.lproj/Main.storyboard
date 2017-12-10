@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sjq-1l-VWJ">
-                                <rect key="frame" x="20" y="40" width="335" height="438.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Sjq-1l-VWJ">
+                                <rect key="frame" x="20" y="40" width="335" height="444.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzj-Wj-H1O">
                                         <rect key="frame" x="124.5" y="0.0" width="86.5" height="20.5"/>
@@ -44,8 +44,8 @@
                                             <outletCollection property="gestureRecognizers" destination="PXf-8l-yC4" appends="YES" id="IJ6-xC-nvf"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8H3-D5-1Df" customClass="RatingControl" customModule="BasicUI">
-                                        <rect key="frame" x="41.5" y="394.5" width="252" height="44"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8H3-D5-1Df" customClass="RatingControl" customModule="BasicUI">
+                                        <rect key="frame" x="41.5" y="394.5" width="252" height="50"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
